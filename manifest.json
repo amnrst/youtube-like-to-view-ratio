@@ -5,8 +5,7 @@
 	"manifest_version": 2,
 	"icons": {
 		"48": "assets/icon48.png",
-		"96": "assets/icon128.png",
-		"144": "assets/icon144.png"
+		"128": "assets/icon128.png"
 	},
 	"homepage_url": "https://github.com/amnrst/youtube-like-to-view-ratio",
 	"permissions": [
