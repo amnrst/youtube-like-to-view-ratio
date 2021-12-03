@@ -1,0 +1,26 @@
+{
+	"name": "Youtube like to view ratio",
+	"description": "Displays the percentage of likes to views, more popular videos have a higher ratio.",
+	"version": "1.0.0",
+	"manifest_version": 2,
+	"icons": {
+		"48": "assets/icon48.png",
+		"96": "assets/icon128.png",
+		"144": "assets/icon144.png"
+	},
+	"homepage_url": "https://github.com/amnrst/youtube-like-to-view-ratio",
+	"permissions": [
+		"*://*.youtube.com/*"
+	],
+	"content_scripts": [
+		{
+			"matches": [
+				"*://*.youtube.com/*"
+			],
+			"js": [
+				"content-script.js"
+			],
+			"run_at": "document_idle"
+		}
+	]
+}
