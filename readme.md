@@ -1,10 +1,13 @@
 ### youtube like to view ratio
 
 Youtube recently removed the dislike to like ratio.  
-Usually 5% of viewers like a video, this extension shows that ratio.
+A video with 1M views and 100 likes for example has a low ratio (0.1%), and probably means the video is not popular.
 
-TODO: add chrome extension link
-TODO: add firefox extension link
+Any video with a like to view ratio greater than 2 or 3 percent, should be all right.
+However the correct ratio depends on the type of content you are watching.
+
+TODO: add chrome extension link (submitted for review)  
+TODO: add firefox extension link  
 
 ![(like to view)%](./assets/readme.png)
 
