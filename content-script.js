@@ -25,10 +25,10 @@ function showStats({ likes, views, likesEl }) {
 	let span = likesEl.querySelector('span');
 	if(!span) {
 		span = document.createElement('span');
-		span.style['padding-left'] = '1em';
-		likesEl.appendChild(span);
+		span.style['padding'] = '0 0.6em';
+		likesEl.prepend(span);
 	}
-	span.innerText = `(${percentage})%`
+	span.innerText = `(${percentage}%)`
 }
 
 let holdBackTimer = null;
