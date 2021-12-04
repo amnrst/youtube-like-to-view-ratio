@@ -6,8 +6,8 @@ A video with 1M views and 100 likes for example has a low ratio (0.1%), and prob
 Any video with a like to view ratio greater than 2 or 3 percent, should be all right.
 However the correct ratio depends on the type of content you are watching.
 
-TODO: add chrome extension link (submitted for review)  
-TODO: add firefox extension link (submitted for review)
+- Install [Firefox Extension](https://addons.mozilla.org/en-US/firefox/addon/youtube-like-to-view-ratio/)
+- Install [Chrome Extension](https://chrome.google.com/webstore/detail/youtube-like-to-view-rati/pjkjdnlpbfcociacjalpklkpebephmha)
 
 ![(like to view)%](./assets/readme.png)
 
