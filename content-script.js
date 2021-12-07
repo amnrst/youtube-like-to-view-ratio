@@ -1,5 +1,3 @@
-console.log("***********************");
-
 const getStats = () => {
 	const infoEl = document.querySelector("ytd-video-primary-info-renderer");
 	if (!infoEl) return null;
