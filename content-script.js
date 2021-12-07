@@ -3,7 +3,7 @@ const getStats = () => {
 	if (!infoEl) return null;
 
 	const viewsEl = infoEl.querySelector("ytd-video-view-count-renderer .view-count");
-	const likesEl = infoEl.querySelector('yt-formatted-string[aria-label~="likes"]');
+	const likesEl = infoEl.querySelector("yt-formatted-string[aria-label]");
 
 	if (!viewsEl || !likesEl) return null;
 
