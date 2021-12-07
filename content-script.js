@@ -13,8 +13,8 @@ const getStats = () => {
 	const likes = likesEl.getAttribute("aria-label");
 
 	return {
-		likes: likes.replace(/[a-z,\s+]/ig, '') | 0,
-		views: views.replace(/[a-z,\s+]/ig, '') | 0,
+		likes: likes.replace(/\D/g, '') | 0,
+		views: views.replace(/\D/g, '') | 0,
 		viewsEl,
 		likesEl,
 	};

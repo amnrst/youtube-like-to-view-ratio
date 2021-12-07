@@ -1,7 +1,7 @@
 {
 	"name": "Youtube like to view ratio",
 	"description": "Displays the percentage of likes to views, more popular videos have a higher ratio.",
-	"version": "0.0.0.2",
+	"version": "0.0.0.3",
 	"manifest_version": 2,
 	"icons": {
 		"48": "assets/icon48.png",
