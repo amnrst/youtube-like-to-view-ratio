@@ -3,7 +3,7 @@ const getStats = () => {
 	if (!infoEl) return null;
 
 	const viewsEl = infoEl.querySelector("ytd-video-view-count-renderer .view-count");
-	const likesEl = infoEl.querySelector("yt-formatted-string[aria-label]");
+	const likesEl = infoEl.querySelector("ytd-menu-renderer yt-formatted-string[aria-label]");
 
 	if (!viewsEl || !likesEl) return null;
 
@@ -19,9 +19,9 @@ const getStats = () => {
 };
 
 function showStats({ likes, views, likesEl }) {
-	const percentage = (100 * likes/views).toFixed(2);
+	const percentage = (100 * likes / views).toFixed(2);
 	let span = likesEl.querySelector('span');
-	if(!span) {
+	if (!span) {
 		span = document.createElement('span');
 		span.style['padding'] = '0 0.6em';
 		likesEl.prepend(span);
