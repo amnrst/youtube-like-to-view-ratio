@@ -11,8 +11,8 @@ const getStats = () => {
 	const likes = likesEl.getAttribute("aria-label");
 
 	return {
-		likes: likes.replace(/\D/g, '') | 0,
-		views: views.replace(/\D/g, '') | 0,
+		likes: likes.replace(/\D/g, '') * 1,
+		views: views.replace(/\D/g, '') * 1,
 		viewsEl,
 		likesEl,
 	};
