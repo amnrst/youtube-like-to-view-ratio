@@ -22,7 +22,7 @@ bitcoin: bc1qj78jrgsemj7qhgmht4gjmuwz3shrzk3evnv6kd
 
 <p></p>
 
-- Install [Firefox Extension](https://addons.mozilla.org/en-US/firefox/addon/youtube-like-to-view-ratio/)
+- Install [Firefox Extension](https://addons.mozilla.org/firefox/addon/youtube-like-to-view-ratio/)
 - Install [Chrome Extension](https://chrome.google.com/webstore/detail/youtube-like-to-view-rati/pjkjdnlpbfcociacjalpklkpebephmha)
 
 
