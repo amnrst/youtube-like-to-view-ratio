@@ -10,6 +10,9 @@ const getStats = () => {
 	const views = viewsEl.innerText;
 	const likes = likesEl.getAttribute("aria-label");
 
+
+    if (views.includes("watching now")) return null;
+
 	return {
 		likes: likes.replace(/\D/g, '') * 1,
 		views: views.replace(/\D/g, '') * 1,
